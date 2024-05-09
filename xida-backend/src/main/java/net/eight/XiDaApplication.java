@@ -14,8 +14,8 @@ import org.springframework.session.data.redis.config.annotation.web.http.EnableR
 @SpringBootApplication
 @EnableRedisHttpSession
 @EnableAspectJAutoProxy
-public class SuperApplication {
-    protected SuperApplication() {
+public class XiDaApplication {
+    protected XiDaApplication() {
     }
 
     /**
@@ -24,7 +24,7 @@ public class SuperApplication {
      * @param args args
      */
     public static void main(String[] args) {
-        SpringApplication.run(SuperApplication.class, args);
+        SpringApplication.run(XiDaApplication.class, args);
     }
 }
 
