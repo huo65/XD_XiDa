@@ -174,12 +174,7 @@ Vue 3 + Vite 脚手架 + Vant UI 移动端组件库 + Axios 请求库
     |   |   |-- UserTeamCreatePage.vue
     |   |   |-- UserTeamJoinPage.vue
     |   |   |-- UserUpdatePage.vue
-    |   |-- plugins
-    |   |   |-- my-axios.js
-    |   |-- services(已弃用)
-    |   |   |-- user.ts(已弃用)
-    |   |-- status(已弃用)
-    |       |-- user.ts(已弃用)
+   
     |
     |-- package.json```
 ```
