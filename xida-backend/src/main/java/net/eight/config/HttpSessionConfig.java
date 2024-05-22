@@ -14,7 +14,7 @@ import javax.websocket.server.ServerEndpointConfig;
  * http会话配置
  *
  * @author  
- * @date 2023/07/28
+ * @date 2024/04/28
  */
 @Component
 public class HttpSessionConfig extends ServerEndpointConfig.Configurator implements ServletRequestListener {

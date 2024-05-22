@@ -6,7 +6,7 @@ import net.eight.common.ErrorCode;
  * 业务异常
  *
  * @author
- * @date 2023/06/22
+ * @date 2024/04/22
  */
 public class BusinessException extends RuntimeException {
     private static final long serialVersionUID = 4946461703861202476L;

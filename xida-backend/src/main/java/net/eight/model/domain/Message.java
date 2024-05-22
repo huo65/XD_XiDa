@@ -16,7 +16,7 @@ import java.util.Date;
  *
  * @author  
  * @TableName message
- * @date 2023/07/28
+ * @date 2024/04/28
  */
 @TableName(value = "message")
 @Data

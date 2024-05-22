@@ -15,7 +15,7 @@ import java.util.Date;
  *
  * @author  
  * @TableName user_team
- * @date 2023/07/28
+ * @date 2024/04/28
  */
 @TableName(value = "user_team")
 @Data

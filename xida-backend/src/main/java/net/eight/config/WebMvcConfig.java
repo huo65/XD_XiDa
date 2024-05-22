@@ -16,7 +16,7 @@ import static net.eight.constants.SystemConstants.CROSS_ORIGIN_ALLOWED_TIME;
  * web mvc配置
  *
  * @author  
- * @date 2023/07/28
+ * @date 2024/04/28
  */
 @Configuration
 public class WebMvcConfig implements WebMvcConfigurer {
