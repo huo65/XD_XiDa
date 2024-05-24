@@ -9,5 +9,14 @@ let myAxios = axios.create({
 myAxios.defaults.withCredentials = true
 
 let token = sessionStorage.getItem("token");
+// 添加请求拦截器
+myAxios.interceptors.request.use(function (config) {
+    if (token) {
+        config.headers['authorization'] = token
+    }
+    return config;
+}, function (error) {
+    return Promise.reject(error);
+});
 
 export default myAxios
