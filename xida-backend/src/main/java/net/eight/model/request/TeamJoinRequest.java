@@ -27,6 +27,4 @@ public class TeamJoinRequest implements Serializable {
      */
     @ApiModelProperty(value = "密码")
     private String password;
-    功能
-
 }
