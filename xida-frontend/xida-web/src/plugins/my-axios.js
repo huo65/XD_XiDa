@@ -1,12 +1,13 @@
 import axios from "axios";
 import {showFailToast} from "vant";
 
-export const URL = 'localhost:8080/api';
+export const URL = '116.198.233.53:8080/api';
 
 let myAxios = axios.create({
     baseURL: 'http://' + URL
 });
-myAxios.defaults.withCredentials = true
+myAxios.defaults.withCredentials = true; // 配置为true
+
 
 let token = sessionStorage.getItem("token");
 // 添加请求拦截器

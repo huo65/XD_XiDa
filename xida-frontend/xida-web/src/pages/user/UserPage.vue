@@ -59,7 +59,7 @@
         </div>
       <van-dialog v-model:show="showCustomerService" title="联系管理员">
             <van-image
-                src="../../public/customer-service.jpg"
+                src="/customer-service.jpg"
             />
         </van-dialog>
     </template>

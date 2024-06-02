@@ -10,7 +10,7 @@
     <van-row justify="center">
         <van-image
             width="343"
-            src="../../public/super.jpg"
+            src="/LOGO.png"
             style="background-position:center"
         />
     </van-row>
@@ -43,7 +43,7 @@
         </van-cell>
         <van-password-input
             :value="code"
-            :length="4"
+            :length="6"
             :mask="false"
             :focused="showKeyboard"
             @focus="showKeyboard = true"

@@ -44,7 +44,7 @@ import myAxios from "../plugins/my-axios.js";
 
 const hasMessage = ref(false)
 let router = useRouter();
-const DEFAULT_TITLE = "嘻搭XD"
+const DEFAULT_TITLE = "嘻搭XIDA"
 const title = ref(DEFAULT_TITLE)
 const active = ref(0)
 router.beforeEach(async (to) => {
@@ -52,7 +52,7 @@ router.beforeEach(async (to) => {
     const route = routes.find((routes) => {
         return routes.path === toPath
     })
-    document.title = "嘻搭XD"
+    document.title = "嘻搭XIDA"
     title.value = route?.title ?? DEFAULT_TITLE
     if (to.path !== '/user/login') {
         let res = await myAxios.get("/message");

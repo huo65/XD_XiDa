@@ -2,7 +2,7 @@
     <van-row justify="center">
         <van-image
                 width="343"
-                src="../../public/super.jpg"
+                src="/LOGO.png"
                 style="background-position:center"
         />
     </van-row>
